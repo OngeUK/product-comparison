@@ -1,0 +1,49 @@
+.comparison-table-container {
+	--comparison-table-header-width: 120px;
+
+	overflow-x: auto;
+}
+
+.comparison-table {
+	border-collapse: collapse;
+	margin: -1px 0 0;
+
+	@media (min-width: 768px) {
+		margin: -1px 0 0 -1rem;
+	}
+
+	th {
+		background: #fff;
+		position: relative;
+		width: var(--comparison-table-header-width);
+
+		@media (min-width: 768px) {
+			position: sticky;
+			left: 0;
+			z-index: 1;
+			padding: 0 1rem;
+		}
+	}
+
+	td {
+		width: 320px;
+
+		&:has(img) {
+			text-align: center;
+		}
+	}
+
+	& th,
+	& td {
+		text-align: left;
+		vertical-align: top;
+		border-top: 1px solid var(--secondary-colour);
+		padding: 0.75rem 1rem;
+	}
+}
+
+.comparison-table__image {
+	width: 10rem;
+	height: 10rem;
+	object-fit: contain;
+}

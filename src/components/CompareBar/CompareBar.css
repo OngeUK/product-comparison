@@ -1,0 +1,29 @@
+.compare-bar {
+	background: #fff;
+	border-top: 2px solid var(--secondary-colour);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.compare-bar__buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.compare-bar__clear-button {
+	background: #fff;
+	border: 1px solid var(--secondary-colour);
+}
+
+.compare-bar__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.compare-bar__spacer {
+	height: 4.5rem;
+}

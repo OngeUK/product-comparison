@@ -1,0 +1,21 @@
+.filter-by-price-heading {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 1rem;
+}
+
+.filter-by-price-labels {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 0.35rem;
+}
+
+.filter-by-price-label {
+	padding: 0;
+}
+
+.filter-by-price-slider {
+	width: 100%;
+	margin: 0;
+}

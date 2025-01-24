@@ -1,0 +1,22 @@
+.dialog {
+	width: calc(100% - 2rem);
+	max-width: 1280px;
+	padding: 0;
+	border: 2px solid var(--secondary-colour);
+	border-radius: var(--border-radius);
+
+	@media (min-width: 1280px) {
+		width: fit-content;
+	}
+}
+
+.dialog__header {
+	align-items: center;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--secondary-colour);
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+}

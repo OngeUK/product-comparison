@@ -1,0 +1,26 @@
+.filter-by-category {
+	border: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.filter-by-category-heading {
+	padding: 0;
+}
+
+.filter-by-category-option {
+	align-items: center;
+	display: flex;
+	gap: 0.5rem;
+	text-transform: capitalize;
+}
+
+.filter-by-category-checkbox {
+	margin: 0;
+	width: 1.2rem;
+	height: 1.2rem;
+	cursor: pointer;
+}

@@ -1,0 +1,4 @@
+.compare-button_selected {
+	background: var(--primary-colour);
+	color: #fff;
+}

@@ -1,0 +1,21 @@
+.product-rating {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.product-rating__count {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.product-rating__icon {
+	.lucide-star {
+		fill: currentColor;
+		color: var(--star-colour);
+	}
+}
+
+.product-rating__count_light {
+	opacity: 0.8;
+	font-weight: 300;
+}

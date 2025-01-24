@@ -1,0 +1,53 @@
+:root {
+	--default-font: ui-sans-serif, system-ui, sans-serif;
+	--primary-colour: #2563eb;
+	--secondary-colour: #d1d5db;
+	--background-colour: #fafafa;
+	--border-radius: 0.25rem;
+	--star-colour: #eab308;
+	--mens-clothing-colour: #1e40af;
+	--womens-clothing-colour: #b91c1c;
+	--jewelery-colour: #065f46;
+	--electronics-colour: #6b21a8;
+}
+
+* {
+	-webkit-tap-highlight-color: transparent;
+
+	&:focus-visible {
+		outline: 2px solid var(--primary-colour);
+		outline-offset: 2px;
+	}
+}
+
+#root,
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-family: var(--default-font);
+	background: var(--background-colour);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	appearance: none;
+	border: none;
+	border-radius: var(--border-radius);
+	font-family: var(--default-font);
+	font-size: 0.825rem;
+	font-weight: 600;
+	padding: 0.5rem 0.75rem 0.75rem;
+	cursor: pointer;
+	transition: filter 150ms ease-in-out;
+
+	&:hover {
+		filter: brightness(95%);
+	}
+}

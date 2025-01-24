@@ -1,0 +1,35 @@
+.category-badge {
+	color: #fff;
+	display: inline-block;
+	padding: 0.15rem 0.5rem 0.25rem;
+	border-radius: var(--border-radius);
+	background-color: #f0f0f0;
+	font-size: 0.9rem;
+	font-weight: 500;
+	display: inline-block;
+	width: max-content;
+	text-transform: capitalize;
+}
+
+.category-badge_overlay {
+	border-radius: 0 0 var(--border-radius) 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.category-badge_mens-clothing {
+	background-color: var(--mens-clothing-colour);
+}
+
+.category-badge_womens-clothing {
+	background-color: var(--womens-clothing-colour);
+}
+
+.category-badge_jewelery {
+	background-color: var(--jewelery-colour);
+}
+
+.category-badge_electronics {
+	background-color: var(--electronics-colour);
+}
