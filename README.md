@@ -2,7 +2,7 @@
 
 ## Preview
 
-[View in browser](https://tbc)
+[View in browser](https://ff-product-comparison.netlify.app/)
 
 ## Installation
 
